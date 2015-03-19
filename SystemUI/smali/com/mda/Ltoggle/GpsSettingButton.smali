@@ -95,7 +95,7 @@
 
     .line 66
     .local v2, rootView:Landroid/view/View;
-    const v3, 0x7f090165
+    const v3, 0x7f0700b1
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -127,19 +127,19 @@
 
     .line 71
     :pswitch_0
-    const v1, 0x7f020267
+    const v1, 0x7f020351
 
     .line 73
-    const v4, 0x7f0a0010
+    const v4, 0x7f08000c
 
     goto :goto_0
 
     .line 75
     :pswitch_1
-    const v1, 0x7f020266
+    const v1, 0x7f020350
 
     .line 76
-    const v4, 0x7f0a000f
+    const v4, 0x7f08000b
 
     goto :goto_0
 
@@ -309,7 +309,7 @@
 
     .prologue
     .line 84
-    const v0, 0x7f0c011f
+    const v0, 0x7f0a00f8
 
     invoke-virtual {p0, v0}, Lcom/mda/Ltoggle/GpsSettingButton;->setText(I)V
 
