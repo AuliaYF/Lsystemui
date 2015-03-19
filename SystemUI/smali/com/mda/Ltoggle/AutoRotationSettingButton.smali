@@ -95,7 +95,7 @@
 
     .line 67
     .local v2, rootView:Landroid/view/View;
-    const v3, 0x7f090168
+    const v3, 0x7f0700b3
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -127,19 +127,19 @@
 
     .line 72
     :pswitch_0
-    const v1, 0x7f02026b
+    const v1, 0x7f020353
 
     .line 74
-    const v4, 0x7f0a0010
+    const v4, 0x7f08000c
 
     goto :goto_0
 
     .line 76
     :pswitch_1
-    const v1, 0x7f02026a
+    const v1, 0x7f020352
 
     .line 77
-    const v4, 0x7f0a000f
+    const v4, 0x7f08000b
 
     goto :goto_0
 
@@ -309,7 +309,7 @@
 
     .prologue
     .line 85
-    const v0, 0x7f0c01bb
+    const v0, 0x7f0a00fa
 
     invoke-virtual {p0, v0}, Lcom/mda/Ltoggle/AutoRotationSettingButton;->setText(I)V
 
