@@ -124,7 +124,7 @@
 
     .line 89
     .local v2, rootView:Landroid/view/View;
-    const v3, 0x7f090169
+    const v3, 0x7f0700b4
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -156,19 +156,19 @@
 
     .line 94
     :pswitch_0
-    const v1, 0x7f02026d
+    const v1, 0x7f020355
 
     .line 96
-    const v4, 0x7f0a0010
+    const v4, 0x7f08000c
 
     goto :goto_0
 
     .line 78
     :pswitch_1
-    const v1, 0x7f02026c
+    const v1, 0x7f020354
 
     .line 99
-    const v4, 0x7f0a000f
+    const v4, 0x7f08000b
 
     goto :goto_0
 
@@ -475,7 +475,7 @@
     .locals 1
 
     .prologue
-    const v0, 0x7f0c01bc
+    const v0, 0x7f0a00fb
 
     invoke-virtual {p0, v0}, Lcom/mda/Ltoggle/SoundSettingButton;->setText(I)V
 
