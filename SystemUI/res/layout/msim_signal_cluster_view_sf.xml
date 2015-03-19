@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.SFMSimSignalClusterView android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/wifi_combo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="0.0dip">
+        <ImageView android:id="@id/wifi_signal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/wifi_inout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/mobile_inout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <View android:id="@id/spacer" android:layout_width="6.0dip" android:layout_height="6.0dip" />
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/mobile_combo" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:visibility="invisible" android:layout_width="6.0dip" android:layout_height="6.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/mobile_signal_cdma" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/mobile_signal_3g" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/mobile_signal_1x" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ImageView android:id="@id/mobile_signal_1x_only" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/mobile_signal_evdo_only" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/no_sim" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:visibility="invisible" android:layout_width="6.0dip" android:layout_height="6.0dip" />
+        <ImageView android:id="@id/mobile_inout2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:visibility="invisible" android:layout_width="6.0dip" android:layout_height="6.0dip" />
+        <FrameLayout android:id="@id/mobile_combo_sub2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/mobile_signal_sub2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/no_sim_slot2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </FrameLayout>
+    <ImageView android:id="@id/airplane" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.android.systemui.statusbar.SFMSimSignalClusterView>
