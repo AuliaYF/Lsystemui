@@ -87,7 +87,7 @@
 
     .line 84
     .local v2, rootView:Landroid/view/View;
-    const v3, 0x7f090163
+    const v3, 0x7f0700af
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -119,28 +119,28 @@
 
     .line 89
     :pswitch_0
-    const v1, 0x7f020274
+    const v1, 0x7f02035a
 
     .line 90
-    const v4, 0x7f0a0010
+    const v4, 0x7f08000c
 
     goto :goto_0
 
     .line 93
     :pswitch_1
-    const v1, 0x7f020273
+    const v1, 0x7f020359
 
     .line 94
-    const v4, 0x7f0a000f
+    const v4, 0x7f08000b
 
     goto :goto_0
 
     .line 97
     :pswitch_2
-    const v1, 0x7f020272
+    const v1, 0x7f020358
 
     .line 98
-    const v4, 0x7f0a000e
+    const v4, 0x7f08000a
 
     goto :goto_0
 
@@ -412,7 +412,7 @@
 
     .prologue
     .line 108
-    const v0, 0x7f0c011d
+    const v0, 0x7f0a00f6
 
     invoke-virtual {p0, v0}, Lcom/mda/Ltoggle/WifiSettingButton;->setText(I)V
 
