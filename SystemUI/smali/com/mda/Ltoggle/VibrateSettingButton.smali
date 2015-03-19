@@ -154,7 +154,7 @@
 
     .line 69
     .local v2, rootView:Landroid/view/View;
-    const v3, 0x7f09016a
+    const v3, 0x7f0700b5
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -186,19 +186,19 @@
 
     .line 74
     :pswitch_0
-    const v1, 0x7f020271
+    const v1, 0x7f020357
 
     .line 76
-    const v4, 0x7f0a0010
+    const v4, 0x7f08000c
 
     goto :goto_0
 
     .line 78
     :pswitch_1
-    const v1, 0x7f020270
+    const v1, 0x7f020356
 
     .line 79
-    const v4, 0x7f0a000f
+    const v4, 0x7f08000b
 
     goto :goto_0
 
@@ -327,7 +327,7 @@
     .locals 1
 
     .prologue
-    const v0, 0x7f0c01bd
+    const v0, 0x7f0a00fc
 
     invoke-virtual {p0, v0}, Lcom/mda/Ltoggle/VibrateSettingButton;->setText(I)V
 
