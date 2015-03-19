@@ -173,4 +173,13 @@
     <item type="id" name="notification_inspect_item">false</item>
     <item type="id" name="recent_remove_item">false</item>
     <item type="id" name="recent_inspect_item">false</item>
+    <item type="id" name="quickpanel_wifi_btn_icon">false</item>
+    <item type="id" name="quickpanel_bluetooth_btn_icon">false</item>
+    <item type="id" name="quickpanel_gps_btn_icon">false</item>
+    <item type="id" name="quickpanel_data_btn_icon">false</item>
+    <item type="id" name="quickpanel_rotate_btn_icon">false</item>
+    <item type="id" name="quickpanel_sound_btn_icon">false</item>
+    <item type="id" name="quickpanel_vibrate_btn_icon">false</item>
+    <item type="id" name="quickpanel_quick_settings">false</item>
+    <item type="id" name="garis">false</item>
 </resources>

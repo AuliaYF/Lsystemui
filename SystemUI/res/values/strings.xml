@@ -247,4 +247,12 @@ be monitored"</string>
     <item type="string" name="APKTOOL_DUMMY_00f3">false</item>
     <item type="string" name="APKTOOL_DUMMY_00f4">false</item>
     <item type="string" name="APKTOOL_DUMMY_00f5">false</item>
+    <string name="quickpanel_wifi_text">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_text">Bluetooth</string>
+    <string name="quickpanel_gps_text">GPS</string>
+    <string name="quickpanel_data_text">Data</string>
+    <string name="quickpanel_rotate_text">"Auto
+Rotation"</string>
+    <string name="quickpanel_sound_text">Sound</string>
+    <string name="quickpanel_vibrate_text">Vibration</string>
 </resources>

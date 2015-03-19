@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <item type="drawable" name="APKTOOL_DUMMY_006d">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_0077">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_007f">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_0084">false</item>
     <item type="drawable" name="notification_number_text_color">#ffffffff</item>
     <item type="drawable" name="ticker_background_color">#ff1d1d1d</item>
     <item type="drawable" name="system_bar_background">@color/system_bar_background_opaque</item>
@@ -9,8 +13,4 @@
     <item type="drawable" name="notification_item_background_legacy_color">#ffaaaaaa</item>
     <item type="drawable" name="heads_up_notification_bg_pressed">#ff33b5e5</item>
     <item type="drawable" name="notification_header_bg">#ff000000</item>
-    <item type="drawable" name="APKTOOL_DUMMY_006d">false</item>
-    <item type="drawable" name="APKTOOL_DUMMY_0077">false</item>
-    <item type="drawable" name="APKTOOL_DUMMY_007f">false</item>
-    <item type="drawable" name="APKTOOL_DUMMY_0084">false</item>
 </resources>

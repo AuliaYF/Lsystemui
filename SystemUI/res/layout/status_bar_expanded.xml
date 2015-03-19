@@ -11,6 +11,7 @@
         <include android:layout_width="fill_parent" android:layout_height="@dimen/notification_panel_header_height" layout="@layout/status_bar_expanded_header" />
         <ExpandableListView android:layout_gravity="center_vertical" android:id="@id/taskList" android:layout_width="fill_parent" android:layout_height="wrap_content" />
         <LinearLayout android:orientation="vertical" android:id="@id/originLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/ltoggle_mda" />
             <include android:id="@id/shortcut" layout="@layout/expanded_shortcut_port" />
             <include layout="@layout/status_bar_notification_title" />
             <TextView android:textAppearance="@style/TextAppearance.StatusBar.Expanded.Network.EmergencyOnly" android:gravity="center" android:id="@id/emergency_calls_only" android:padding="4.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />

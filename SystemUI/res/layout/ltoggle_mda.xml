@@ -34,7 +34,7 @@
     <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="90.0dip">
         <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
             <com.mda.Ltoggle.SignalToggle android:layout_gravity="top|center" android:layout_width="30.0dip" android:layout_height="30.0dip" />
-            <com.mda.Ltoggle.SIMName android:textColor="#ffffffff" android:textSize="12.0dip" android:gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="30.0px" />
+            <com.mda.Ltoggle.SIMName android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="30.0px" />
         </FrameLayout>
         <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
             <ImageView android:layout_gravity="top|center" android:id="@id/quickpanel_sound_btn_icon" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/quickpanel_icon_sound_off" />

@@ -10,4 +10,7 @@
     <color name="batterymeter_charge_color">#ffffffff</color>
     <color name="batterymeter_bolt_color">#b2000000</color>
     <color name="status_bar_clock_color">#ffffffff</color>
+    <color name="quickpanel_text_color_ing">#ff75899b</color>
+    <color name="quickpanel_text_color_off">#ff999fa4</color>
+    <color name="quickpanel_text_color_on">#ffffffff</color>
 </resources>
