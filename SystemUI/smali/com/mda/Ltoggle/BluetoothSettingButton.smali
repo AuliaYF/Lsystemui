@@ -143,7 +143,7 @@
 
     .line 85
     .local v2, rootView:Landroid/view/View;
-    const v3, 0x7f090164
+    const v3, 0x7f0700b0
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -175,28 +175,28 @@
 
     .line 90
     :pswitch_0
-    const v1, 0x7f020263
+    const v1, 0x7f02034d
 
     .line 91
-    const v4, 0x7f0a0010
+    const v4, 0x7f08000c
 
     goto :goto_0
 
     .line 94
     :pswitch_1
-    const v1, 0x7f020262
+    const v1, 0x7f02034c
 
     .line 95
-    const v4, 0x7f0a000f
+    const v4, 0x7f08000b
 
     goto :goto_0
 
     .line 98
     :pswitch_2
-    const v1, 0x7f020261
+    const v1, 0x7f02034b
 
     .line 99
-    const v4, 0x7f0a000e
+    const v4, 0x7f08000a
 
     goto :goto_0
 
@@ -474,7 +474,7 @@
 
     .prologue
     .line 109
-    const v0, 0x7f0c011e
+    const v0, 0x7f0a00f7
 
     invoke-virtual {p0, v0}, Lcom/mda/Ltoggle/BluetoothSettingButton;->setText(I)V
 
