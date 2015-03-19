@@ -242,7 +242,7 @@
     iput-boolean v6, p0, Lcom/mda/Ltoggle/SignalToggle;->mAlwaysUseCdmaRssi:Z
 
     .line 60
-    const v2, 0x7f0201f6
+    const v2, 0x7f020319
 
     invoke-virtual {p0, v2}, Lcom/mda/Ltoggle/SignalToggle;->setImageResource(I)V
 
